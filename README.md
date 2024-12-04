@@ -1,1 +1,7 @@
 # Facial-Recognition-System
+- The primary goal of this project is to develop a face recognition system using machine learning techniques for the Labeled Faces in the Wild (LFW) dataset. The problem involves accurately identifying individuals in both the original and different types of aligned images, which is essential for various real-life applications such as surveillance, security, and access control.
+# *** Data***
+- The Labeled Faces in the Wild (LFW)(https://vis-www.cs.umass.edu/lfw/index.html#explore) is a database collected by the University of Massachusetts, designed for studying unconstrained face recognition. The dataset contains over 13,000 images of faces collected from the web, including 5749 people and 1680 people with two or more images. It includes labeled images of individuals to facilitate the development and testing of face verification algorithms. The dataset provides several sets of images, including original, aligned, and "deep funneled" images, with the latter two offering superior results for most algorithms.
+# *** Techniques***
+- I leveraged deep learning models, particularly convolutional neural networks (CNNs), known for their prowess in image-based tasks, to develop a robust face verification system.
+- Besides, I also tried  other architectures, like ResNet, Multi-mask cascaded convolutional networks (MTCNN), deep face recognition, single shot multibox detector (SSD - including VGG-16) to build extension models and compare the evaluating metrics with our feature-based CNN model.
